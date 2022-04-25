@@ -55,7 +55,12 @@ a {
 }
 
 /*Starts style for main body section*/
-  
+
+/* Set style to all the paragraphs "p" in section "content" and "benefits" */
+p {
+    font-size: 16px;
+}   
+
 /* Style for the principal image */
 .hero {
     height: 800px;
@@ -147,11 +152,6 @@ a {
     float: right;
     margin-left: 25px;
 }
-
-/* Set style to all the paragraphs "p" in section "content" and "benefits" */
-p {
-    font-size: 16px;
-} 
 
 /* Set style to the class "benefits" */
 .benefits {
