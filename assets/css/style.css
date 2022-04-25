@@ -1,0 +1,236 @@
+/* Select box properties using "*" */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6; /* Set the body background of the page to color gray */
+}
+
+/* Set style to all the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Set style to a specfic part of the header "h1" */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Set style to a specfic part of the header "class seo" */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Set style to a specfic part of the header "div" */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Set style to a specfic part of the header "ul" */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Set style to a specfic part of the header "ul li" */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Set style to a specfic part of the header "a" */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Starts style for main body section*/
+  
+/* Style for the principal image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Image as a background */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Set style to the entire class "content" */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Set style to the search Engine Optimization paragraph */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set style to the Online Reputation Managment paragraph */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set style to the Social Media Marketing paragraph */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Set style to the title "Search Engine Optimization" */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set style to the title "Online Reputation Managment" */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set style to the title "Social Media Marketing" */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set size of "Search Engine Optimization img" */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Set size of "Online Reputation Managment img" */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Set size of "Social Media Marketing img" */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Set float property to the search-engine-optimization section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Set float property to the online-reputation-management section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Set style to all the paragraphs "p" in section "content" and "benefits" */
+p {
+    font-size: 16px;
+} 
+
+/* Set style to the class "benefits" */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Set style to the class "benefit-lead" from the benefits section */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set style to the class "benefit-brand" from the benefits section */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set style to the class "benefit-cost" from the benefits section */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Set style to the "Lead Generation" phrase */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set style to the "Brand Awareness" phrase */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set style to the "Cost Managment" phrase */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set style to the Lead Generation ICON */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Set style to the Brand Awareness ICON */  
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Set style to the Cost Management ICON */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Set style to the footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Set size to a specific part of the footer */
+.footer h2 {
+    font-size: 20px;
+}
