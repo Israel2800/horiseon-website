@@ -1,4 +1,4 @@
-# Horiseon Description
+# Horiseon Website
 
 The Horiseon webpage is now optimized for searh engines, so the clients that visit the webpage can access to this part of the webpage by just giving one clic to the "Search Engine Optimization" phrase. This option follows accessibility standards for the Horiseon visitors.
 
