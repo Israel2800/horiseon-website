@@ -6,11 +6,11 @@ The Horiseon webpage is now optimized for searh engines, so the clients that vis
 
 ## URL of deployed application
 
-https://israel2800.github.io/horiseon-challenge/
+https://israel2800.github.io/horiseon-website/
 
 ## URL of the GitHub Repository
 
-https://github.com/Israel2800/horiseon-challenge.git
+https://github.com/Israel2800/horiseon-website
 
 ## HTML and CSS
 
